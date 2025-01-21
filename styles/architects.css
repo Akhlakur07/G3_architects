@@ -1,0 +1,360 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+.work-sans-font {
+    font-family: "Work Sans", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.display-flex {
+    display: flex;
+}
+
+.navbar,
+.banner {
+    margin-left: 13%;
+    margin-right: 13%;
+}
+
+.navbar {
+    justify-content: space-between;
+    background-color: rgba(255, 144, 14, 0.1);
+    align-items: center;
+}
+
+.brand {
+    color: rgb(19, 19, 19);
+    font-size: 3rem;
+}
+
+
+.nav-item {
+    list-style: none;
+    margin-right: 1.875rem;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: rgb(66, 66, 66);
+    font-size: 1.125rem;
+    font-weight: 500;
+    line-height: 1.625rem;
+    letter-spacing: 0%;
+}
+
+.banner-content {
+    max-width: 53.125rem;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.banner-title {
+    color: rgb(19, 19, 19);
+    font-weight: 700;
+    font-size: 4rem;
+}
+
+.banner-description {
+    color: rgb(114, 114, 114);
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.625rem;
+}
+
+.btn-primary {
+    background-color: rgb(255, 144, 14);
+    color: rgb(255, 255, 255);
+    padding: 1.25rem 1.5625rem;
+    font-size: 1.25rem;
+    font-weight: 600;
+    border-radius: 0.5rem;
+    border: none;
+}
+
+.banner-image {
+    width: 100%;
+}
+
+main {
+    margin-left: 13%;
+    margin-right: 13%;
+}
+
+main>section {
+    margin-top: 8.25rem;
+}
+
+.teams {
+    align-items: center;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.team-img-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.5rem;
+}
+
+
+.our-features {
+    margin-left: 4.75rem;
+}
+
+.feature-title {
+    font-size: 2.8rem;
+    font-weight: 700;
+    line-height: 3.5rem;
+    margin: 0;
+}
+
+#quick-list {
+    color: rgb(114, 114, 114);
+}
+
+#features {
+    color: rgb(255, 144, 14);
+}
+
+.feature-description {
+    color: rgb(114, 114, 114);
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.625rem;
+}
+
+.features-enjoy {
+    gap: 6.25rem;
+}
+
+.enjoy-title {
+    color: rgb(19, 19, 19);
+    font-size: 2.8rem;
+    font-weight: 700;
+    line-height: 3.3rem;
+    border-left: 0.32rem solid rgb(255, 144, 14);
+    padding-left: 1.2rem;
+}
+
+
+.mini-title {
+    color: rgb(19, 19, 19);
+    font-size: 1.25rem;
+    font-weight: 600;
+    line-height: 1.437rem;
+    margin: 0;
+}
+
+.enjoy-box {
+    padding: 1.8rem;
+}
+
+
+#experience-badge {
+    padding: 2.8rem 2.6rem;
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin-left: -5rem;
+    margin-top: -9.375rem;
+}
+
+#experience-year {
+    font-size: 4rem;
+    font-weight: 700;
+}
+
+.some-facts {
+    margin-bottom: 1.5rem;
+}
+
+.fact-header {
+    margin-bottom: 6.25rem;
+}
+
+.fact-cards {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin-left: 4%;
+    margin-right: 2%;
+    gap: 5.5rem;
+}
+
+.card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 1px solid rgb(255, 144, 14);
+    border-radius: 8px;
+    padding: 2.8rem 0 3.75rem 0;
+    text-align: center;
+}
+
+.card img {
+    margin-bottom: 0.625rem;
+}
+
+.card-num {
+    color: rgb(66, 66, 66);
+    font-size: 45px;
+    font-weight: 600;
+    margin: 0;
+    margin-bottom: 0.32rem;
+}
+
+.card-name {
+    color: rgb(114, 114, 114);
+    font-size: 1.12rem;
+    font-weight: 600;
+    margin: 0;
+}
+
+.some-facts {
+    color: rgb(19, 19, 19);
+    font-size: 2.8rem;
+    font-weight: 700;
+}
+
+.sponsor-info {
+    max-width: 53.125rem;
+    margin: 0 auto 2.8rem auto;
+    text-align: center;
+}
+
+.sponsor-title {
+    color: rgb(19, 19, 19);
+    font-size: 2.81rem;
+    font-weight: 700;
+    margin: 0;
+    margin-bottom: 1.5rem;
+}
+
+.sponsor-companies {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    justify-items: center;
+}
+
+.sponsor-companies img {
+    filter: grayscale(100%);
+}
+
+.sponsor-companies img:hover {
+    filter: grayscale(0%);
+}
+
+.rights {
+    color: rgb(66, 66, 66);
+    font-size: 20px;
+    font-weight: 400;
+    display: flex;
+    justify-content: center;
+    margin: 10rem 0 15rem 0;
+}
+
+
+
+@media screen and (max-width: 36rem) {
+
+    .navbar,
+    .features-enjoy {
+        flex-direction: column;
+    }
+
+    main>section {
+        margin-top: 5.25rem;
+    }
+
+    .teams {
+        flex-direction: column-reverse;
+    }
+
+    .banner-title {
+        font-weight: 700;
+        font-size: 3rem;
+    }
+
+    .brand {
+        font-size: 2.5rem;
+    }
+
+    .team-img-container {
+        grid-template-columns: repeat(1, 1fr);
+
+    }
+
+    .team-img-container img {
+        width: 100%;
+    }
+
+    .our-features {
+        margin: 10%;
+    }
+
+    .exp-image img {
+        width: 100%;
+    }
+
+    #experience-badge {
+        padding: 1rem 0.8rem;
+        font-size: 0.8rem;
+        font-weight: 500;
+        margin-left: -1.5rem;
+        margin-top: -2.375rem;
+    }
+
+    #experience-year {
+        font-size: 1.8rem;
+        font-weight: 700;
+    }
+
+    .fact-cards {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .sponsor-companies {
+        grid-template-columns: 1fr;
+        justify-items: center;
+        gap: 4.5rem;
+    }
+}
+
+@media screen and (min-width: 36rem) and (max-width: 96rem) {
+
+    .navbar,
+    .features-enjoy {
+        flex-direction: column;
+    }
+
+    .teams {
+        flex-direction: column-reverse;
+    }
+
+    .team-img-container {
+        width: 100%;
+    }
+
+    .team-img-container img {
+        width: 100%;
+    }
+
+    .our-features {
+        margin: 0 0 5% 0;
+    }
+
+    .exp-image img {
+        width: 100%;
+    }
+
+    .fact-cards {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .sponsor-companies {
+        grid-template-columns: 1fr;
+        justify-items: center;
+        gap: 4.5rem;
+    }
+}
